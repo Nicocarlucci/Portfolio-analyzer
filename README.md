@@ -2,7 +2,7 @@ Quantitative Portfolio Risk & Optimization Analyzer
 
 A comprehensive Python toolkit designed for quantitative portfolio management, risk analysis, and asset allocation. This application automates historical data retrieval, calculates institutional-grade risk metrics, generates performance visualizations, and solves for optimal portfolio weights using Markowitz Modern Portfolio Theory.
 
-🌟 Key Features
+Key Features
 
 Automated Data Retrieval: Dynamically pulls historical price data for custom tickers and benchmark indices (S&P 500) via yfinance.
 
@@ -20,7 +20,7 @@ Maximum Return Portfolio: Maximizes annual return expectations.
 
 Visual Diagnostics: Plots cumulative performance, historical drawdowns, return distribution histograms with risk limits, asset correlation heatmaps, and regression scatter plots.
 
-🚀 Getting Started
+Getting Started
 
 Prerequisites
 
@@ -48,27 +48,8 @@ Enter target asset tickers separated by commas (e.g., AAPL, MSFT, GOOGL, NVDA).
 
 Specify individual weight allocations for each asset.
 
-📊 Summary Output Example
 
-======================================================================
-METRICHE PORTFOLIO
-======================================================================
-Rendimento totale:        142.50%
-Rendimento annualizzato:  12.40%
-Volatilità:               15.20%
-Sharpe Ratio:             0.55
-Sortino Ratio:            0.82
-Max Drawdown:             -22.10%
-Calmar Ratio:             0.56
-VaR 95%:                  -1.85%
-CVaR 95%:                 -2.90%
-Beta (vs S&P 500):        1.050
-Tracking Error:           4.30%
-Information Ratio:        0.420
-======================================================================
-
-
-🛠️ Built With
+Built With
 
 Python - Core programming language.
 
@@ -79,6 +60,8 @@ SciPy - Non-linear optimization algorithms (scipy.optimize.minimize).
 yfinance - Financial market data downloader.
 
 Matplotlib & Seaborn - Data visualization libraries.
+
+
 
 📜 License
 
